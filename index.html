@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="resources\css\reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="resources\css\mediumScreen.css">
+
+    <link rel="stylesheet" href="resources\css\smallScreen.css">
+
+    <link rel="stylesheet" href="resources\css\largeScreen.css">
+
+
+
+    <script type="text/javascript"src="resources\js\main.js">
+    </script>
+    <title>OriG sample</title>
+  </head>
+  <body>
+    <!--                      HEADER                    -->
+    <div class="header">
+      <div class="brand">
+        <!--Some image will come here -->
+        <h3>O.G.S</h3>
+      </div>
+      <ul class="menu">
+        <li class='dropdown'><span class="light-blue">Features ▾</span>
+          <ul class='features-menu'>          <!-- Start of submenu -->
+            <li><a href='#'>Harder </a></li>
+            <li><a href='#'>Faster </a></li>
+            <li><a href='#'>Better </a></li>
+            <li><a href='#'>Stronger</a></li> <!-- End of submenu -->
+          </ul>
+        </li>
+        <li><a href='#'>YouTube</a></li>
+        <li><a href='#'>Speaking</a></li>
+        <li><a href='#'>Contact Me</a></li>
+      </ul>
+    </div>
+
+    <!--                     MOBILE HEADER                    -->
+    <header class="mobile-header">
+      <a href="#" ><span class="brand-mobile">O.G</span></a>
+      <!-- Navigation links (hidden by default) -->
+
+      <div id="myLinks">
+        <a href="javascript:void(0);" onhover="subDropdown()">▾Features</a>
+        <a href="#Lorem">YouTube</a>
+        <a href="#Ipsum">Speaking</a>
+        <a href="#Dolor">Contact Me</a>
+      </div>
+      <div id="mySubLinks">
+        <a href="#">Harder</a>
+        <a href="#">Faster</a>
+        <a href="#">Better</a>
+        <a href="#">Stronger</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon"  onclick="dropdown()">
+        <i class="fa fa-bars" id="hamburger"></i>
+      </a>
+    </header>
+    <section class="header-offset">
+      <!--                     LANDING                    -->
+      <section class="landing">
+        <div class="heading">
+          <h2>urna neque viverra justo</h2>
+          <h3>nibh mauris cursus mattis molestie a iaculis at erat pellentesque commodo</h3>
+        </div>
+      </section>
+
+      <section>
+        <div class="banner">
+          <h1>What is Holding you back</h1>
+        </div>
+      </section>
+
+      <!--                     Features                    -->
+      <section class="services">
+        <div class="service-container business">
+          <img src="resources\images\Business-Travel-1.jpg" alt="business pic">
+          <div class="img-text">
+            <h2>Do you want to get ahead in your business?</h2>
+          <p>maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum non
+             consectetur a erat nam at lectus urna duis convallis convallis tellus
+           </p>
+          </div>
+        </div>
+
+        <div class="service-container family">
+          <img src="resources\images\family2.jpg" alt="family pic">
+          <div class="img-text">
+            <h2>Do you want to improve your personal life?</h2>
+            <p>odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros
+               donec ac odio tempor orci dapibus ultrices
+             </p>
+          </div>
+        </div>
+
+      </section>
+
+
+
+
+      <!--                     ABOUT & SPEAKING                    -->
+      <section class="bioSpeak-container">
+        <div class="bio">
+
+          <div class="bio-left">
+            <h2>About</h2>
+            <img src="resources\images\bio_sample.jpg" alt="">
+          </div>
+
+          <div class="bio-right">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed velit dignissim sodales ut eu sem integer vitae. Cras ornare arcu dui vivamus. Consectetur a erat nam at lectus urna. Bibendum neque egestas congue quisque egestas diam in.</p>
+            <button type="button" class="button button1">Learn More</button>
+
+          </div>
+
+        </div>
+        <div class="speak">
+
+          <div class="speak-left">
+            <h2>Speaking</h2>
+            <img src="resources\images\meOutside.jpg" alt="">
+          </div>
+
+          <div class="speak-right">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed velit dignissim sodales ut eu sem integer vitae. Cras ornare arcu dui vivamus. Consectetur a erat nam at lectus urna. Bibendum neque egestas congue quisque egestas diam in.</p>
+            <button type="button" class="button button1">Learn More</button>
+
+          </div>
+
+        </div>
+      </section>
+      <!-- ***** FORM ***** -->
+      <section class="form-section">
+        <form action="/action_page.php">
+          <div class="form-container form-intro">
+            <h2>Subscribe to our Newsletter</h2>
+            <p style="padding-top:1rem">Lorem ipsum text about why you should subscribe to our newsletter blabla. Lorem ipsum text about why you should subscribe to our newsletter blabla.</p>
+          </div>
+
+          <div class="form-container form-input">
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Email address" name="mail" required>
+          </div>
+
+          <div class="form-container">
+            <input type="submit" value="Subscribe">
+          </div>
+        </form>
+      </section>
+
+      <footer>
+        <div class="social-container">
+          <!-- Social Media -->
+          <a href="#" target="_blank" class="social-icon fa fa-facebook"></a>
+          <a href="https://twitter.com/origillar?lang=en" target="_blank" class="social-icon fa fa-twitter"></a>
+          <a href="#" target="_blank" class="social-icon fa fa-linkedin"></a>
+          <a href="#" target="_blank" class="social-icon fa fa-youtube"></a>
+          <a href="https://www.instagram.com/origillar/?hl=en" target="_blank" class="social-icon fa fa-instagram"></a>
+          <a href="#" target="_blank" class="social-icon fa fa-snapchat-ghost"></a>
+        </div>
+        <div class="logo-container">
+          <img src="resources\images\logoDemo.jpg" alt="logo">
+        </div>
+        <div class="demo-footer-links">
+          <a href="#"> Privacy Policy </a>
+          <a href="#"> Terms of use </a>
+          <a href="#"> Disclaimer </a>
+        </div>
+        <div class="copyright light-blue">
+          © ORI GILLAR ENTERPRISES, INC 2018
+        </div>
+      </footer>
+
+    </section>
+  </body>
+</html>

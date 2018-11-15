@@ -1,0 +1,174 @@
+/*Colors and  large screen*/
+
+
+@media screen and (min-width: 920px) and (max-width: 1949px) {
+
+  .header-offset{
+  position: relative;
+  top: 53px;
+  }
+  .landing {
+    /*In case i need to reverse to last working prototype
+    background-position: 0 -100px;
+    height: 40rem;*/
+
+    height: 100vh;
+    background-position: center;
+  }
+  .heading h2{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
+  .heading h3{
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+}
+@media screen and (min-width: 1950px) {
+  .header-offset{
+    position: relative;
+    top: 53px;
+  }
+  .landing {
+    text-align: center;
+    /*last working prototype
+    background-position: 0 -200px;
+    height: 70rem;*/
+    height: 100vh;
+    background-position: center;
+  }
+  .heading h2{
+    font-size: 5rem !important;
+    padding-bottom: 2rem;
+  }
+  .heading h3{
+    font-size: 2rem !important;
+    line-height: 1.5;
+  }
+  .heading{
+    width: 50vw;
+  }
+}
+@media only screen and (min-width: 1008px){
+  .bio{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .speak{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+  .speak-right,.bio-right{
+    padding: 0 10%;
+    text-align: justify;
+  }
+  .bio-right,.bio-left,.speak-left,.speak-right{
+  width: 50%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+  .bio-left img,.speak img{
+    height: 20rem;
+      width: 75%;
+      object-fit: cover;
+      object-position: center  30%;
+  }
+  .bio h2, .speak h2 {
+    padding: 1rem;
+  }
+}
+/*       XL-SCREENS          */
+@media only screen and (min-width: 1500px){
+  .bio-left img,.speak img{
+    width: 55%;
+  }
+}
+/*       XXL-SCREENS          */
+@media only screen and (min-width: 2100px){
+  .header{
+    height: 8rem;
+    line-height: 6rem;
+    font-size: 300%;
+  }
+
+  .dropdown:hover .features-menu {
+    top: 0px;
+  }
+  .banner{
+    height: 40vh;
+    line-height: 40vh;
+  }
+  .banner h1{
+    font-size: 8rem;
+  }
+  .services{
+    padding: 10vh 0;
+  }
+  .bio-left img,.speak img{
+    width: 85%;
+    height: 40vh;
+  }
+  .bio-right,.speak-right,.bio h2, .speak h2{
+    font-size: 250%;
+  }
+  .button{
+    font-size: 150%;
+  }
+  input[type=text], input[type=submit] {
+    font-size: 100%;
+  }
+
+  footer, .form-section{
+    font-size: 250%;
+
+  }
+  .social-container{
+    font-size: 150%;
+  }
+
+}
+/*@media only screen and (min-width: 1500px){
+  .bio-left img,.speak img{
+    height: 25rem;
+      width: 55%;
+      object-fit: cover;
+      object-position: center  25%;
+  }
+}*/
+
+
+/*So i can change the colors easily*/
+/*Light*/
+.light-blue, .mobile-header a, a:link,a:visited, input[type=submit],.form-intro,.brand{
+color: #f2f2f2;
+}
+body,#mySubLinks,.button1,input[type=submit]:hover{
+  background-color: #f2f2f2;
+}
+.bio{
+  background-color: #fff;
+}
+.speak{
+  background-color: #eaf1fc;
+}
+/*Dark*/
+.dark-primary,.header, .features-menu, .dropdown:hover, .mobile-header,.button1:hover ,footer, input[type=submit],.form-intro,.banner{
+  background-color: #2e2f30;
+}
+.dark-primary-text-color,#mySubLinks a, .button1, input[type=submit]:hover,.bioSpeak-container{
+  color: #2e2f30;
+}
+.button1, input[type=submit]:hover{
+  border: 2px solid #2e2f30;
+}
+
+/*.bio, .speak{
+  border: 2px solid #2e2f30;
+}*/
+form{
+  border: 3px solid #2e2f30;
+}

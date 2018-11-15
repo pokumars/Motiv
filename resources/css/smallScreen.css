@@ -1,0 +1,110 @@
+@media only screen and (max-width: 650px){
+
+      .header{
+        display: none;
+      }
+      .mobile-header {
+        z-index: 10;
+        display: block;
+        overflow: hidden;
+        position: relative;
+        padding-bottom: 1.5rem;
+      }
+      .brand-mobile{
+        font-size: 20px;
+        font-weight: bold;
+      }
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .mobile-header #myLinks {
+        display: none;
+        text-align: right;
+      }
+      .mobile-header a {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+      }
+      /* Style the hamburger menu */
+      .mobile-header a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      #mySubLinks{
+        display: none;
+        border-radius: 5px;
+        position: absolute;
+        top: 65px;
+        right: 2px;
+        z-index: 3;
+        padding: 0 3px;
+      }
+      #hamburger{
+        display: inline;
+      }
+      a:active{
+        color: white;
+      }
+      /***********SERVICES*********/
+      .services{
+        flex-direction: column;
+        padding: 0;
+      }
+      .service-container img{
+        width: 100%;
+        margin-top: 1rem;
+      }
+      .service-container{
+      width: 90%;
+      margin: 0 auto;
+      }
+      .services h2{
+        font-size: 0.85rem;
+      }
+      .services p{
+        padding-top: 0.5rem;
+        font-size: 0.7rem;
+      }
+      /***********ABOUT & SPEAKING*********/
+      .bioSpeak-container{
+        display: flex;
+        flex-direction: column;
+
+      }
+      .bio-left,.bio-right, .speak-left,.speak-right {
+        width: 100%;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .bio-right,.speak-right{
+        width: 90%;
+        margin: 0 auto;
+        padding: 15px 15px 0 15px;
+        text-align:justify;
+      }
+
+      .bio-left img,.speak-left img{
+        width: 90%;
+        height: 60vh;
+        object-fit: cover;
+
+      }
+      
+
+
+      /***********FORM*********/
+      .form-container{
+        padding: 25px 5px;
+      }
+      form {
+          width: 100%;
+      }
+      input[type=text] {
+          width: 100%;
+
+      }
+}
